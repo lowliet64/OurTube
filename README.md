@@ -1,4 +1,4 @@
-#OurTube <img src="logo.png" style="height:20px">
+# OurTube <img src="logo.png" style="height:20px">
 
 ![](https://img.shields.io/badge/React⚛%EF%B8%8F-%5E17.0.2-brightgreen)   ![](https://img.shields.io/badge/puppeteer-%5E8.0.0-brightgreen)  ![](https://img.shields.io/badge/styled--components-%5E5.2.3-ff69b4)
 
