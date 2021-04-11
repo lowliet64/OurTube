@@ -7,12 +7,15 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home'
+import Welcome from './pages/Welcome'
+
+
 export default function Routes() {
     return (
         <Router>
             <Switch>
                 <Route path="/" exact>
-                    <Home />
+                    <Welcome />
                 </Route>
             </Switch>
         </Router>

@@ -1,0 +1,19 @@
+
+
+
+.container-center{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.phrase-welcome{
+     margin-left: 5px;
+     display: flex;
+     flex-direction: column;
+}
+
+img.logo{
+    height: 20vh;
+}
