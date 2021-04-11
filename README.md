@@ -1,6 +1,6 @@
 # OurTube <img src="logo.png" style="height:40px" width=40> 
 
-![](https://img.shields.io/badge/React⚛%EF%B8%8F-%5E17.0.2-brightgreen)   ![](https://img.shields.io/badge/puppeteer-%5E8.0.0-brightgreen)  ![](https://img.shields.io/badge/styled--components-%5E5.2.3-ff69b4)
+![](https://img.shields.io/badge/React⚛%EF%B8%8F-%5E17.0.2-brightgreen)   ![](https://img.shields.io/badge/styled--components-%5E5.2.3-ff69b4)
 
 A minimized youtube clone implemented with React JS and typescript
 ****
@@ -9,8 +9,7 @@ A minimized youtube clone implemented with React JS and typescript
  2. search videos
  3. watch videos
 
-OBS: all data in this system come from [YouTube]('https://www.youtube.com/') by web crawling
-****
+OBS: all data in this system come from [YouTube]('https://www.youtube.com/') 
 **prerequisites**📋
  - NodeJS
 ***
