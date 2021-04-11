@@ -1,0 +1,23 @@
+.header{
+    border-bottom:solid 0.1px #6993FF;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+.header>nav> form> input{
+    height: 20px;
+
+}
+.header-logo{
+    height: 2em;
+}
+
+.search-button{
+    min-height: 24px ;
+    width: 40px;
+   
+}
+
+.form-search{
+    min-width: 60%;
+}
