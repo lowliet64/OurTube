@@ -17,6 +17,9 @@ export default function Routes() {
                 <Route path="/" exact>
                     <Welcome />
                 </Route>
+                <Route path="/home" exact>
+                    <Home />
+                </Route>
             </Switch>
         </Router>
 
