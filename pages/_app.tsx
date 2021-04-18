@@ -1,7 +1,9 @@
-
-function MyApp({ pageProps }) {
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+import './global.css'
+function MyApp({ Component, pageProps }) {
     return (
-        <div>hello world</div>
+
+        <div><Component {...pageProps} /></div>
     )
 }
 
