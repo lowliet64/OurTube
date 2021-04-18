@@ -10,6 +10,7 @@ A minimized youtube clone implemented with React JS and typescript
  3. watch videos
 
 OBS: all data in this system come from [YouTube]('https://www.youtube.com/') 
+
 **prerequisites**📋
  - NodeJS
 ***
