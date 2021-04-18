@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .header{
     border-bottom:solid 0.1px #6993FF;
     display: flex;
@@ -24,7 +25,15 @@
     width: 60px;
     background-color: #6495ed;
     border: solid rgba(100, 148, 237, 0) 1px;
-    }
+}
+
+.icon-button{
+    min-height: 32px ;
+    width: 60px;
+    background-color: white;
+    border: solid white 1px;
+}
+
 .form-search{
     min-width: 60%;
 }
@@ -117,9 +126,12 @@ img.logo{
     flex-wrap: wrap;
 }
 
+
+
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3.ourtube {
@@ -130,3 +142,4 @@ h3.ourtube {
 .ourtube {
   font-family: 'Oswald', sans-serif;
 }
+
