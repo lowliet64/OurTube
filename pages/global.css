@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.header{
+    border-bottom:solid 0.1px #6993FF;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    padding-top: 10px;
+    height: 40px;
+}
+.header>nav> form> input{
+    height: 30px;
+    width: 260px;
+    outline: none;
+    border: solid cornflowerblue 1px;
+
+}
+.header-logo{
+    height: 2em;
+    display: inline-block;
+}
+
+.search-button{
+    min-height: 32px ;
+    width: 60px;
+    background-color: #6495ed;
+    border: solid rgba(100, 148, 237, 0) 1px;
+}
+
+.icon-button{
+    min-height: 32px ;
+    width: 60px;
+    background-color: white;
+    border: solid white 1px;
+}
+
+.form-search{
+    min-width: 60%;
+}
+
+.voice-button{
+    background-color: white;
+    border-style: none;
+    margin-left: 10px;
+   
+    height: 40px 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+
+
+
+.container-center{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.phrase-welcome{
+     margin-left: 5px;
+     display: flex;
+     flex-direction: column;
+}
+
+img.logo{
+    height: 20vh;
+}
+.video-card{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 20px 30px;
+
+}
+
+.video-thumb{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+}
+
+.image-thumb{
+    height: 200px;
+    width: 400px;
+}
+
+.video-detail{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.profile-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+ 
+}
+.detail-text{
+    padding-left: 15px;
+}
+
+.time-biding{
+    position: absolute; 
+    color: white;
+    background-color: rgba(34, 34, 59, 0.835); 
+    border-radius: 2px;
+    margin-left:350px;
+    margin-top: 11em
+}
+
+.container-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 500px;
+    flex-wrap: wrap;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3.ourtube {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vw;
+}
+
+.ourtube {
+  font-family: 'Oswald', sans-serif;
+}
+

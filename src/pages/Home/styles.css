@@ -1,0 +1,54 @@
+.video-card{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 20px 30px;
+
+}
+
+.video-thumb{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+}
+
+.image-thumb{
+    height: 200px;
+    width: 400px;
+}
+
+.video-detail{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.profile-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+ 
+}
+.detail-text{
+    padding-left: 15px;
+}
+
+.time-biding{
+    position: absolute; 
+    color: white;
+    background-color: rgba(34, 34, 59, 0.835); 
+    border-radius: 2px;
+    margin-left:350px;
+    margin-top: 11em
+}
+
+.container-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 500px;
+    flex-wrap: wrap;
+}
