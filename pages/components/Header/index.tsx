@@ -7,8 +7,8 @@ export default function Header() {
         <header className="header">
             <span><a href="/welcome" style={{ display: "flex" }}><img src={"https://github.com/lowliet64/OurTube/blob/main/logo.png?raw=true"} alt="Our tube" className="header-logo" /><p className="ourtube" style={{ fontSize: "2vh" }}>OurTube</p></a></span>
             <nav className="">
-                <form action="" >
-                    <input type="text" placeholder="Search" />
+                <form action="/search" method="GET" >
+                    <input type="text" name="text" id="text" placeholder="Search" />
                     <button type="submit" className="search-button"><FaSearch color="white" style={{ height: "10px" }}></FaSearch></button>
                     <button className="voice-button" style={{}}><FaMicrophone color="#6495ed" style={{ height: "15px" }} /></button>
                 </form>
