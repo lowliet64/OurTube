@@ -5,7 +5,12 @@ import { NextApiRequest, NextApiResponse } from "next"
 export default function (req: NextApiRequest, res: NextApiResponse) {
     try {
         let scrape = async () => {
-            const browser = await puppeteer.launch()
+            const browser = await puppeteer.launch(({
+              args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+              ],
+            })
             const page = await browser.newPage()
             await page.goto('https://www.youtube.com/')
             const result = await page.evaluate(() => {
