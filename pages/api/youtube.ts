@@ -10,7 +10,7 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
                 '--no-sandbox',
                 '--disable-setuid-sandbox'
               ]
-            })
+            }))
             const page = await browser.newPage()
             await page.goto('https://www.youtube.com/')
             const result = await page.evaluate(() => {
