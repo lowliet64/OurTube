@@ -6,9 +6,9 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
     try {
         let scrape = async () => {
             const browser = await puppeteer.launch(({
+              headless:true,
               args: [
                 '--no-sandbox',
-                '--disable-setuid-sandbox'
               ]
             }))
             const page = await browser.newPage()
