@@ -8,7 +8,7 @@ export default function Home() {
     useEffect(() => {
         console.log('loading data')
         console.log(listVideos)
-        fetch('https://ourtubejs.herokuapp.com/api/youtube').then(async (response) => {
+        fetch('http://ourtubejs.herokuapp.com/api/youtube').then(async (response) => {
             let data = await response.json()
             SetListVideos(data)
         }).catch(err => console.log(err))
