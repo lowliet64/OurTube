@@ -1,5 +1,7 @@
 # OurTube <img src="logo.png" style="height:40px" width=40> 
 
+available on : https://ourtubejs.herokuapp.com
+
 ![](https://img.shields.io/badge/React⚛%EF%B8%8F-%5E17.0.2-brightgreen)   ![](https://img.shields.io/badge/styled--components-%5E5.2.3-ff69b4)  ![](https://img.shields.io/badge/nextJS-%5E10.1.3-green)
 
 A minimized youtube clone implemented with ReactJS , NextJs and typescript
