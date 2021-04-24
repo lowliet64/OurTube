@@ -21,7 +21,7 @@ export default function Watch(props) {
         <div>
             <Header></Header>
             <div style={{ padding: '20px', display: "flex", flexWrap: 'wrap' }}>
-                <object data={`http://www.youtube.com/embed/${videoId}`}
+                <object data={`https://www.youtube.com/embed/${videoId}`}
                     id="video-component" ></object>
                 <div style={{ marginLeft: '40px' }}>
                     <div>
