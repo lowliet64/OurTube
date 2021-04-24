@@ -226,3 +226,11 @@ h3.ourtube {
         transform: translateX(100%);
     }
 }
+
+/*video page*/
+
+#video-component{
+    height: 600px;
+    width: 60%;
+    min-width: 400px;
+}
