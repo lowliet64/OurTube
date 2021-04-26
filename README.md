@@ -7,9 +7,9 @@ available on : https://ourtubejs.herokuapp.com
 A minimized youtube clone implemented with ReactJS , NextJs and typescript
 ****
 **Features🎯**
- 1. home page
- 2. search videos
- 3. watch videos
+ 1. home page✔️
+ 2. search videos❌
+ 3. watch videos✔️
 
 OBS: all data in this system come from [YouTube]('https://www.youtube.com/') 
 
