@@ -6,7 +6,7 @@ available on : https://ourtubejs.herokuapp.com
 
 A minimized youtube clone implemented with ReactJS , NextJs and typescript
 ****
-**Mandatory Features🎯**
+**Features🎯**
  1. home page
  2. search videos
  3. watch videos
